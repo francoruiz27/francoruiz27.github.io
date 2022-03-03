@@ -94,7 +94,7 @@ h1{
     height:23;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1125px) {
     #letras>span {
         padding:15px 10px 10px 10px;
         height: 70px;
