@@ -97,13 +97,13 @@ h1{
 @media (max-width: 1125px) {
     #letras>span {
         padding:20px 10px 10px 10px;
-        height: 80px;
-        width: 70px;
+        height: 85px;
+        width: 75px;
         text-align: center;
-        margin:4px;
+        margin:6px;
         float:left;
         cursor:pointer;
-        border-radius: 3px;
+        border-radius: 5px;
         background-color:rgb(121, 121, 121);
         box-sizing: border-box;
         font-weight: 700;
@@ -112,24 +112,23 @@ h1{
     
     #letras2>span {
         padding:20px;
-        width: 85px;
-        height: 80px;
+        width: 90px;
+        height: 85px;
         text-align: center;
-        margin:4px;
+        margin:6px;
         float:left;
-        border-radius: 2px;
+        border-radius: 5px;
         background-color: rgb(146, 5, 5);
-        border: 2px solid rgb(77, 77, 77);
+        border: 7px solid rgb(77, 77, 77);
         box-sizing: border-box;
         font-weight: 700;
         font-size: xx-large;
     }
     #teclado {
-        width:790px;
+        width:875px;
         overflow: hidden;
         font-size: x-large;
         margin-top: 30px;
-        background-color: rgb(146, 5, 5);
     }
     .borrar {
         padding-top: 0px;
@@ -137,10 +136,14 @@ h1{
         height:33;
     }
     #letras>span.enviar {
-        width: 148px;
+        width: 162px;
     }
     
     #letras>span.borrar {
-        width: 70px;
+        width: 75px;
+    }
+    h1{
+        margin: 30px;
+        font-size: xxx-large;
     }
 }
