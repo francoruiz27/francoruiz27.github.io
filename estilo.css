@@ -47,14 +47,12 @@ body {
 }*/
 
 .contenedor {
-    margin: auto;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 20px;
-    background-color: white;
 }
 
 h1{
@@ -93,4 +91,53 @@ h1{
     padding-top: 0px;
     width:25;
     height:23;
+}
+
+@media (max-width: 730px) {
+    #letras>span {
+        padding:15px 10px 10px 10px;
+        height: 70px;
+        width: 60px;
+        text-align: center;
+        margin:2px;
+        float:left;
+        cursor:pointer;
+        border-radius: 3px;
+        background-color:rgb(121, 121, 121);
+        box-sizing: border-box;
+        font-weight: 700;
+    }
+    
+    #letras2>span {
+        padding:10px;
+        width: 75px;
+        height: 70px;
+        text-align: center;
+        margin:2px;
+        float:left;
+        border-radius: 1px;
+        background-color: rgb(37, 37, 37);
+        border: 2px solid rgb(77, 77, 77);
+        box-sizing: border-box;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+    #teclado {
+        width:650px;
+        overflow: hidden;
+        font-size: x-large;
+        margin-top: 30px;
+    }
+    .borrar {
+        padding-top: 0px;
+        width:35;
+        height:33;
+    }
+    #letras>span.enviar {
+        width: 115px;
+    }
+    
+    #letras>span.borrar {
+        width: 70px;
+    }
 }
