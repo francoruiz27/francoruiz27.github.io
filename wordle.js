@@ -115,7 +115,7 @@ function teclaPulsada(e) {
     };
     if (iPalabra == 7) {
         container.classList.add('perder');
-        titulo.innerHTML = 'LOOSER';
+        titulo.innerHTML = 'LOOSER (word: '+rta+')';
     }
 }
  
