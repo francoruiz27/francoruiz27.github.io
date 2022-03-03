@@ -97,7 +97,7 @@ h1{
 @media (max-width: 1125px) {
     #letras>span {
         padding:20px 10px 10px 10px;
-        height: 85px;
+        height: 90px;
         width: 75px;
         text-align: center;
         margin:6px;
@@ -112,13 +112,12 @@ h1{
     
     #letras2>span {
         padding:20px;
-        width: 90px;
-        height: 85px;
+        width: 100px;
+        height: 95px;
         text-align: center;
         margin:6px;
         float:left;
         border-radius: 5px;
-        background-color: rgb(146, 5, 5);
         border: 7px solid rgb(77, 77, 77);
         box-sizing: border-box;
         font-weight: 700;
