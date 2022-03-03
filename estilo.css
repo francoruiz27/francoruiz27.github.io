@@ -47,7 +47,6 @@ body {
 }*/
 
 .contenedor {
-    width: 500px;
     margin: auto;
     border-radius: 3px;
     display: flex;
