@@ -6,6 +6,7 @@ body {
 #teclado {
     width:440px;
     overflow: hidden;
+    border: 2px solid rgb(77, 77, 77);
 }
 #letras>span {
     padding:15px 10px 10px 10px;
